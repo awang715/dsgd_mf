@@ -2,7 +2,7 @@
 10-605 ML-HW7
 
 Simply run:
-spark-submit dsgd_mf.py 20 3 100 0.9 <optimal_lambda> \
-autolab_train.csv w.csv h.csv 
+spark-submit dsgd_mf.py <num_factors> <num_workers> <num_iteration> <beta_value> <lambda_value> \
+<inputV_path> <outputW_path> <outputH_path> 
 
 https://github.com/awang715/dsgd_mf/blob/master/dsgd_mf.py
